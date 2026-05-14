@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreeda-Prerana Scout | Grassroots Sports Talent Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: #1a1a2e; background: #f8f9fc; }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #21295C 0%, #065A82 50%, #1C7293 100%);
+            color: white; padding: 80px 20px 60px; text-align: center;
+        }
+        .hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 12px; }
+        .hero .tagline { font-size: 1.15rem; opacity: 0.9; max-width: 600px; margin: 0 auto 30px; line-height: 1.6; }
+        .hero .badge { display: inline-block; background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); padding: 8px 20px; border-radius: 50px; font-size: 0.85rem; font-weight: 500; }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex; justify-content: center; gap: 50px; padding: 30px 20px;
+            background: white; box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        .stat { text-align: center; }
+        .stat .num { font-size: 1.8rem; font-weight: 800; color: #065A82; }
+        .stat .label { font-size: 0.8rem; color: #666; margin-top: 4px; text-transform: uppercase; letter-spacing: 1px; }
+
+        /* Section */
+        .section { max-width: 960px; margin: 0 auto; padding: 60px 20px; }
+        .section h2 { font-size: 1.8rem; font-weight: 700; margin-bottom: 10px; color: #21295C; }
+        .section .subtitle { color: #555; margin-bottom: 35px; line-height: 1.6; }
+
+        /* Features Grid */
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .feature-card {
+            background: white; border-radius: 12px; padding: 28px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05); border: 1px solid #eee;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .feature-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
+        .feature-card .icon { font-size: 2rem; margin-bottom: 12px; }
+        .feature-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; color: #21295C; }
+        .feature-card p { font-size: 0.9rem; color: #555; line-height: 1.6; }
+
+        /* Tech Stack */
+        .tech-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+        .tech-tag {
+            background: white; border: 1.5px solid #e0e0e0; padding: 10px 20px;
+            border-radius: 8px; font-size: 0.9rem; font-weight: 500; color: #333;
+            transition: border-color 0.2s;
+        }
+        .tech-tag:hover { border-color: #065A82; color: #065A82; }
+
+        /* Architecture */
+        .arch-layers { display: flex; flex-direction: column; gap: 0; }
+        .arch-layer {
+            padding: 22px 28px; border-left: 4px solid; position: relative;
+        }
+        .arch-layer h4 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+        .arch-layer p { font-size: 0.85rem; color: #555; }
+        .layer-view { border-color: #3b82f6; background: #eff6ff; }
+        .layer-vm { border-color: #a855f7; background: #faf5ff; }
+        .layer-model { border-color: #22c55e; background: #f0fdf4; }
+        .arch-arrow { text-align: center; font-size: 1.2rem; color: #999; padding: 4px 0; }
+
+        /* Benchmarks Table */
+        .bench-table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .bench-table th { background: #21295C; color: white; padding: 14px 18px; text-align: left; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .bench-table td { padding: 12px 18px; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
+        .bench-table tr:last-child td { border-bottom: none; }
+        .bench-table tr:hover td { background: #f8f9fc; }
+
+        /* CTA */
+        .cta { background: linear-gradient(135deg, #21295C, #065A82); text-align: center; padding: 60px 20px; color: white; }
+        .cta h2 { font-size: 1.8rem; margin-bottom: 12px; }
+        .cta p { opacity: 0.85; margin-bottom: 25px; max-width: 500px; margin-left: auto; margin-right: auto; }
+        .btn { display: inline-block; background: white; color: #21295C; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 0.95rem; transition: transform 0.2s; }
+        .btn:hover { transform: scale(1.05); }
+
+        /* Footer */
+        footer { text-align: center; padding: 30px 20px; font-size: 0.8rem; color: #999; }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .stats-bar { flex-wrap: wrap; gap: 25px; }
+            .features-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero -->
+    <div class="hero">
+        <h1>Kreeda-Prerana Scout</h1>
+        <p class="tagline">A grassroots sports talent tracker for rural school physical education teachers to record, monitor, and identify student athlete potential.</p>
+        <span class="badge">VTU Internship Project &bull; 2025-26</span>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-bar">
+        <div class="stat"><div class="num">13</div><div class="label">Sport Events</div></div>
+        <div class="stat"><div class="num">30</div><div class="label">Batch Entry</div></div>
+        <div class="stat"><div class="num">10ms</div><div class="label">Timer Precision</div></div>
+        <div class="stat"><div class="num">7</div><div class="label">App Screens</div></div>
+    </div>
+
+    <!-- Features -->
+    <div class="section">
+        <h2>Core Features</h2>
+        <p class="subtitle">Built for PE teachers in rural schools who need a simple, offline tool to track student athlete performance over time.</p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon">&#9201;</div>
+                <h3>Precision Stopwatch</h3>
+                <p>High-accuracy timer using SystemClock.elapsedRealtime() with 10ms intervals for recording sprint times to 2 decimal places.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128203;</div>
+                <h3>Batch Entry</h3>
+                <p>Record performance data for an entire class of 30 students in a single session with scroll-safe data persistence.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#127942;</div>
+                <h3>Milestone Badges</h3>
+                <p>Automatic "District Level Ready" badge when a student crosses preset sport-specific benchmark values.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128200;</div>
+                <h3>Talent Curve</h3>
+                <p>Line graph showing performance improvement over time using MPAndroidChart with cubic Bezier interpolation.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#127941;</div>
+                <h3>Leaderboard</h3>
+                <p>Internal school ranking sorted by best performance scores per sport category with gold, silver, bronze highlights.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128274;</div>
+                <h3>100% Offline</h3>
+                <p>Room Database (SQLite) ensures complete functionality without internet — perfect for rural schools with limited connectivity.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Architecture -->
+    <div class="section">
+        <h2>Architecture — MVVM Pattern</h2>
+        <p class="subtitle">Clean separation of concerns using Model-View-ViewModel architecture for maintainable, testable code.</p>
+        <div class="arch-layers">
+            <div class="arch-layer layer-view">
+                <h4>View Layer (UI)</h4>
+                <p>XML Layouts, Activities (MainActivity, TrialLoggerActivity, BatchEntryActivity, LeaderboardActivity, TalentCurveActivity), RecyclerView, Material Components</p>
+            </div>
+            <div class="arch-arrow">&#8595; User Actions &nbsp;&nbsp;&nbsp; &#8593; LiveData / State</div>
+            <div class="arch-layer layer-vm">
+                <h4>ViewModel / Controller Layer</h4>
+                <p>Activity Controllers, BenchmarkUtils (13 sport benchmarks), Executors (background threading), Handler (10ms timer callbacks)</p>
+            </div>
+            <div class="arch-arrow">&#8595; CRUD Requests &nbsp;&nbsp;&nbsp; &#8593; Query Results</div>
+            <div class="arch-layer layer-model">
+                <h4>Model Layer (Data)</h4>
+                <p>AppDatabase (Room), AthleteDao, TrialRecordDao, Athlete Entity, TrialRecord Entity (@ForeignKey CASCADE)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tech Stack -->
+    <div class="section">
+        <h2>Technology Stack</h2>
+        <p class="subtitle">Built with proven Android technologies for reliability and performance on low-end devices.</p>
+        <div class="tech-grid">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Android SDK 34</span>
+            <span class="tech-tag">Room Database</span>
+            <span class="tech-tag">Material Design</span>
+            <span class="tech-tag">MPAndroidChart</span>
+            <span class="tech-tag">RecyclerView</span>
+            <span class="tech-tag">LiveData</span>
+            <span class="tech-tag">Executors</span>
+            <span class="tech-tag">Android Studio</span>
+        </div>
+    </div>
+
+    <!-- Benchmarks -->
+    <div class="section">
+        <h2>District-Level Benchmarks</h2>
+        <p class="subtitle">Preset performance thresholds calibrated from school-level athletic meet records.</p>
+        <table class="bench-table">
+            <thead><tr><th>Sport Event</th><th>Benchmark</th><th>Type</th></tr></thead>
+            <tbody>
+                <tr><td>100m Sprint</td><td>&lt; 14.0 sec</td><td>Timed</td></tr>
+                <tr><td>200m Sprint</td><td>&lt; 28.0 sec</td><td>Timed</td></tr>
+                <tr><td>400m Run</td><td>&lt; 62.0 sec</td><td>Timed</td></tr>
+                <tr><td>800m Run</td><td>&lt; 2:30 min</td><td>Timed</td></tr>
+                <tr><td>1500m Run</td><td>&lt; 5:15 min</td><td>Timed</td></tr>
+                <tr><td>Long Jump</td><td>&gt; 4.5 m</td><td>Distance</td></tr>
+                <tr><td>High Jump</td><td>&gt; 1.4 m</td><td>Distance</td></tr>
+                <tr><td>Shot Put</td><td>&gt; 10.0 m</td><td>Distance</td></tr>
+                <tr><td>Discus Throw</td><td>&gt; 25.0 m</td><td>Distance</td></tr>
+                <tr><td>Javelin Throw</td><td>&gt; 30.0 m</td><td>Distance</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta">
+        <h2>View Source Code</h2>
+        <p>The complete source code is available on GitHub with full documentation.</p>
+        <a href="https://github.com/kshitizkannojia/Kreeda-Prerana-Scout" class="btn">View on GitHub</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Kreeda-Prerana Scout &bull; Developed by Kshitiz Kannojia (1ME22CS066) &bull; MS Engineering College &bull; VTU 2025-26</p>
+    </footer>
+
+</body>
+</html>

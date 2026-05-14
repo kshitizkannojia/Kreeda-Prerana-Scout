@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kreeda-Prerana Scout</string>
+    <string name="athlete_profiles">Athlete Profiles</string>
+    <string name="trial_logger">Trial Logger</string>
+    <string name="batch_entry">Batch Entry</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="talent_curve">Talent Curve</string>
+    <string name="add_athlete">Add Athlete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="district_level_ready">District Level Ready</string>
+</resources>

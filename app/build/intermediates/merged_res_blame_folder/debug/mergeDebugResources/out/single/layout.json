@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/dialog_add_athlete.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/dialog_add_athlete.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/activity_trial_logger.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_trial_logger.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/item_athlete.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_athlete.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/activity_batch_entry.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_batch_entry.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/activity_athlete_detail.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_athlete_detail.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/activity_leaderboard.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_leaderboard.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/activity_talent_curve.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_talent_curve.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/item_trial.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_trial.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/item_leaderboard.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_leaderboard.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/item_batch_entry.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_batch_entry.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-mergeDebugResources-46:/layout/activity_athlete_list.xml",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_athlete_list.xml"
+    }
+]

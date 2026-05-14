@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_activity_trial_logger.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_trial_logger.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_dialog_add_athlete.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/dialog_add_athlete.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_bg_icon_circle.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/bg_icon_circle.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_activity_athlete_list.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_athlete_list.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_bg_rank_gold.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/bg_rank_gold.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_bg_rank_silver.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/bg_rank_silver.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_activity_talent_curve.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_talent_curve.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_item_batch_entry.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_batch_entry.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_bg_edit_text.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/bg_edit_text.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_activity_main.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_activity_leaderboard.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_leaderboard.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_bg_rank_bronze.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/bg_rank_bronze.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_item_trial.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_trial.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_activity_batch_entry.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_batch_entry.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_activity_athlete_detail.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/activity_athlete_detail.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_item_athlete.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_athlete.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/layout_item_leaderboard.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/layout/item_leaderboard.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_bg_rank_default.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/bg_rank_default.xml"
+    },
+    {
+        "merged": "com.kreeda.preranascout.app-debug-47:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.kreeda.preranascout.app-main-49:/drawable/ic_launcher_foreground.xml"
+    }
+]
