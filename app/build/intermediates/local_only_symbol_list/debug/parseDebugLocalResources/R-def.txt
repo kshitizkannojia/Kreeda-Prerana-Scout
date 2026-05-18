@@ -56,6 +56,7 @@ id sp_curve_event
 id sp_event
 id sp_leaderboard_event
 id sp_sport
+id tv_athlete_count
 id tv_athlete_details
 id tv_athlete_name
 id tv_athlete_school
@@ -90,6 +91,7 @@ layout activity_athlete_list
 layout activity_batch_entry
 layout activity_leaderboard
 layout activity_main
+layout activity_splash
 layout activity_talent_curve
 layout activity_trial_logger
 layout dialog_add_athlete
@@ -111,3 +113,4 @@ string save
 string talent_curve
 string trial_logger
 style Theme.KreedaPrerana
+style Theme.KreedaPrerana.Splash

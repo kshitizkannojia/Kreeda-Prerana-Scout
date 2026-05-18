@@ -3681,6 +3681,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_athlete_count
 id tv_athlete_details
 id tv_athlete_name
 id tv_athlete_school
@@ -3853,6 +3854,7 @@ layout activity_athlete_list
 layout activity_batch_entry
 layout activity_leaderboard
 layout activity_main
+layout activity_splash
 layout activity_talent_curve
 layout activity_trial_logger
 layout custom_dialog
@@ -4674,6 +4676,7 @@ style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
 style Theme_KreedaPrerana
+style Theme_KreedaPrerana_Splash
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog

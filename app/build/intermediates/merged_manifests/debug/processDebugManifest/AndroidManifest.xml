@@ -26,15 +26,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KreedaPrerana" >
         <activity
-            android:name="com.kreeda.preranascout.ui.main.MainActivity"
+            android:name="com.kreeda.preranascout.ui.main.SplashActivity"
             android:exported="true"
-            android:theme="@style/Theme.KreedaPrerana" >
+            android:theme="@style/Theme.KreedaPrerana.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.kreeda.preranascout.ui.main.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.KreedaPrerana" />
         <activity
             android:name="com.kreeda.preranascout.ui.athlete.AddAthleteActivity"
             android:label="Add Athlete"

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -31,14 +32,18 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final MaterialCardView cardTrialLogger;
 
+  @NonNull
+  public final TextView tvAthleteCount;
+
   private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull MaterialCardView cardAthletes,
       @NonNull MaterialCardView cardBatchEntry, @NonNull MaterialCardView cardLeaderboard,
-      @NonNull MaterialCardView cardTrialLogger) {
+      @NonNull MaterialCardView cardTrialLogger, @NonNull TextView tvAthleteCount) {
     this.rootView = rootView;
     this.cardAthletes = cardAthletes;
     this.cardBatchEntry = cardBatchEntry;
     this.cardLeaderboard = cardLeaderboard;
     this.cardTrialLogger = cardTrialLogger;
+    this.tvAthleteCount = tvAthleteCount;
   }
 
   @Override
@@ -92,8 +97,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_athlete_count;
+      TextView tvAthleteCount = ViewBindings.findChildViewById(rootView, id);
+      if (tvAthleteCount == null) {
+        break missingId;
+      }
+
       return new ActivityMainBinding((ScrollView) rootView, cardAthletes, cardBatchEntry,
-          cardLeaderboard, cardTrialLogger);
+          cardLeaderboard, cardTrialLogger, tvAthleteCount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
