@@ -1,0 +1,5 @@
+com.kreeda.preranascout.test.app-core-1.6.1-0 C:\Users\kshit\.gradle\caches\transforms-4\7c560067d7bae9bd20de25a73b351b45\transformed\core-1.6.1\res
+com.kreeda.preranascout.test.app-androidTest-1 C:\Users\kshit\AndroidStudioProjects\Kreeda-Prerana-Scout-kshitiz\app\build\generated\res\resValues\androidTest\debug
+com.kreeda.preranascout.test.app-mergeDebugAndroidTestResources-2 C:\Users\kshit\AndroidStudioProjects\Kreeda-Prerana-Scout-kshitiz\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.kreeda.preranascout.test.app-mergeDebugAndroidTestResources-3 C:\Users\kshit\AndroidStudioProjects\Kreeda-Prerana-Scout-kshitiz\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.kreeda.preranascout.test.app-debugAndroidTest-4 C:\Users\kshit\AndroidStudioProjects\Kreeda-Prerana-Scout-kshitiz\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
